@@ -4,7 +4,6 @@
 require 'csv'
 require 'net/http'
 require 'sensu-plugin/check/cli'
-require 'uri'
 
 class CheckHaproxyStatus < Sensu::Plugin::Check::CLI
   option :hostname,
